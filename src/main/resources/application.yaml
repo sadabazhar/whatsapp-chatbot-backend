@@ -1,3 +1,8 @@
 spring:
   application:
     name: whatsapp-chatbot
+
+
+# Dynamic port for deployment
+server:
+  port: ${PORT:8080}
